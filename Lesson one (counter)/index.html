@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sizing">
+            <h2 id="greet"> </h2>
+            <h1>Online Counter: </h1>
+            <h1 id="result"> 
+            
+                 <!-- Display the incremented or decremented result here -->
+            </h1>
+       
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+            <button  onclick="displayCurrent(); recording()">SAVE</button>
+            <button id="reset" onclick ="reset()">Reset</button>
+       
+    
+            <h2 id="save"> 
+                <!--Record the latest count by clicking the save button-->
+            </h2>
+        
+            
+        
+            <p id="record">Previous record: </p>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
